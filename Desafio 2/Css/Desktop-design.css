@@ -1,0 +1,85 @@
+body {
+  background-position: right 0px top -35px, right 0px top -200px;
+  background-size: 312px, auto;
+}
+body .logo-equalizer img {
+  margin-inline: 165px;
+}
+
+main .Principal-contain {
+  margin-top: 122px;
+  margin-inline: 165px;
+  max-width: 900px;
+}
+.intro-contain h1 {
+  font-size: 87.5px;
+  line-height: 88px;
+}
+main .parrafo-principal {
+  margin-top: 40px;
+  font-size: 20px;
+  max-width: 850px;
+  line-height: 34px;
+}
+main .fondo-decoration {
+  margin-top: 185px;
+  margin-inline: 165px;
+  background-position: left 42% top -30%;
+  background-size: 312px;
+  top: 135.2px;
+}
+main img {
+  height: 642px;
+  top: -212px;
+  margin-inline: 102px auto;
+}
+main .advertisement {
+  margin-inline: auto 96px;
+  padding-top: 56px;
+  padding-inline: 54px;
+  padding-bottom: 48px;
+  top: -552px;
+  height: 624px;
+  width: 446px;
+}
+main .advertisement h2 {
+  font-size: 40px;
+  margin-top: 9px;
+  line-height: 35px;
+}
+main .parrafo-advertsement {
+  margin-top: 30.4px;
+  font-size: 20px;
+  line-height: 34px;
+}
+main div .cuatro {
+  margin-block: 52px 32px;
+}
+main button {
+  gap: 8px;
+  width: 98.5%;
+}
+main button img {
+  width: 24px;
+}
+main .button-primary {
+  margin-top: 58.5px;
+}
+.contain-footer {
+  margin-inline: 165px;
+  grid-template-columns: 1fr 76.8%;
+  top: 250px;
+  padding-bottom: 92px;
+}
+footer img {
+  top: 0px;
+}
+.footer-division {
+  top: 0px;
+  justify-items: center;
+  align-items: center;
+  grid-template-columns: 1fr 20%;
+}
+.footer-right {
+  top: 0px;
+}

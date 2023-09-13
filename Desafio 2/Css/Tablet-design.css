@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: "IBM Plex Sans", sans-serif;
+  height: 200vh;
+}
+body {
+  padding-block: 62px 80px;
+  background-image: url("https://fm-equalizer-landing.davequah.com/assets/bg-pattern-1.svg"),
+    url("https://fm-equalizer-landing.davequah.com/assets/bg-main-tablet.png");
+  background-position: right -40px top -40px, right -100px top -250px;
+  background-repeat: no-repeat;
+  background-size: 270px, auto;
+}
+
+body .logo-equalizer img {
+  width: 149px;
+  height: auto;
+  position: static;
+  margin-inline: 40px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+main .Principal-contain {
+  margin-top: 88px;
+  margin-inline: 40px;
+  max-width: 500px;
+}
+.intro-contain h1 {
+  font-size: 64px;
+  color: #191826;
+  line-height: 64.8px;
+  letter-spacing: -0.75px;
+}
+p {
+  font-size: 18px;
+  line-height: 27.8px;
+  font-weight: 400;
+  color: #191826;
+}
+main .parrafo-principal {
+  margin-top: 28px;
+  margin-right: -10px;
+}
+main .fondo-decoration {
+  background-color: #191826;
+  display: block;
+  top: 134.2px;
+  max-height: 600px;
+  position: relative;
+  margin-top: 111px;
+  margin-inline: 40px;
+  border-radius: 12px;
+  z-index: 1;
+  background-image: url("https://fm-equalizer-landing.davequah.com/assets/bg-pattern-2.svg");
+  background-repeat: no-repeat;
+  background-position: left 55% top -15%;
+  background-size: 280px;
+}
+main img {
+  height: 555px;
+  position: relative;
+  z-index: 2;
+  top: -137px;
+  margin-inline: 56px auto;
+  display: block;
+}
+
+main .advertisement {
+  background-color: #fa7352;
+  width: 400px;
+  height: 543px;
+  margin-inline: auto 58px;
+  position: relative;
+  z-index: 3;
+  border-radius: 12px;
+  top: -403px;
+  padding: 48px;
+  color: #fcf9f8;
+}
+main .advertisement h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+main .parrafo-advertsement {
+  color: #fcf9f8;
+  margin-top: 12px;
+}
+main div .cuatro {
+  font-size: 65px;
+  font-weight: 700;
+  margin-block: 48px 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #fcf9f8;
+}
+main div .month {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fcf9f8;
+}
+main button {
+  display: flex;
+  width: 100%;
+  padding: 18.5px 14px;
+  border-radius: 12px;
+  border: none;
+  gap: 7px;
+  align-items: center;
+  justify-content: center;
+  font-size: 17.5px;
+  font-weight: 700;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+main .button-primary {
+  background-color: #191826;
+  color: white;
+  margin-top: 43px;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
+  transition-property: background-color;
+}
+main .button-primary:hover {
+  background-color: #78dfff;
+}
+main .button-secondary:hover {
+  background-color: #e2b555;
+}
+main .button-secondary {
+  background-color: #fcf9f8;
+  color: black;
+  margin-top: 16px;
+}
+main button img {
+  width: 20px;
+  height: auto;
+  display: flex;
+  position: inherit;
+  margin: 0px;
+}
+.contain-footer {
+  display: grid;
+  position: relative;
+  margin-top: 88px;
+  margin-inline: 40px;
+  top: 180px;
+  padding-bottom: 163px;
+}
+footer img {
+  width: 149px;
+  height: auto;
+  position: relative;
+  top: 50px;
+}
+.footer-division {
+  display: grid;
+  grid-template-columns: 1fr 25%;
+  position: relative;
+  top: 78px;
+}
+
+.footer-left p {
+  font-size: 16px;
+}
+.footer-left .second {
+  margin-right: 90px;
+  line-height: 25px;
+  max-width: 400px;
+}
+.footer-gmail {
+  font-weight: 900;
+  text-decoration: none;
+  color: #191826;
+}
+.footer-right {
+  list-style: none;
+  justify-self: end;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  position: relative;
+  top: -20px;
+}
+
+.Face img {
+  width: 30px;
+  position: relative;
+  right: 15px;
+}
+.Twitter img {
+  width: 19px;
+  position: relative;
+  right: -10px;
+}
+.Instagram img {
+  width: 20px;
+  position: relative;
+}
